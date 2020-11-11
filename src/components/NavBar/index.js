@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
     return (
@@ -17,15 +18,15 @@ export default function NavBar() {
             {/* Menu Items */}
             <section className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
-                    <li className="nav-item">
-                        <a className="nav-link" href="/">About</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link" href="/">Portfolio</a>
-                    </li>
-                    <li className="nav-item active">
-                        <a className="nav-link" href="/">Contact<span className="sr-only">(current)</span></a>
-                    </li>
+                    <Link to="/" className="nav-link">
+                        <li className="nav-item">About</li>
+                    </Link>
+                    <Link to="/portfolio" className="nav-link">
+                        <li className="nav-item">Portfolio</li>
+                    </Link>
+                    <Link to="/contact" className="nav-link">
+                        <li className="nav-item active">Contact</li>
+                    </Link>
                 </ul>
             </section>
 
