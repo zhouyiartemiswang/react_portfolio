@@ -49,7 +49,6 @@ export default function Portfolio() {
                 deployedLink="https://zhouyiartemiswang.github.io/weather_dashboard/"
                 githubRepo="https://github.com/zhouyiartemiswang/weather_dashboard"
             />
-
         </main>
     )
 }
