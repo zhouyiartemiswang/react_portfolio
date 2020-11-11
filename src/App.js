@@ -4,11 +4,11 @@ import Contact from './pages/Contact';
 import NoMatch from './pages/NoMatch';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import { Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
     return (
-        <Router>
+        <BrowserRouter>
             <NavBar />
             <Switch>
                 <Route exact path={["/", "/about"]} component={About} />
@@ -17,7 +17,7 @@ function App() {
                 <Route component={NoMatch} />
             </Switch>
             <Footer />
-        </Router>
+        </BrowserRouter>
     );
 }
 
