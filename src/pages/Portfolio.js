@@ -5,7 +5,7 @@ export default function Portfolio() {
     return (
         <main className="container">
             <Project
-                img="https://res.cloudinary.com/artemiswang/image/upload/v1605131793/cold_west_gohnyj.png"
+                img="https://res.cloudinary.com/artemiswang/image/upload/v1605147324/the_cold_west_h6kg3j.png"
                 title="The Cole West"
                 description="One-stop website for winter activity lovers in Washington. Used express-handlebars and MySQL2."
                 deployedLink="https://the-cold-west.herokuapp.com/"
