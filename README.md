@@ -3,7 +3,7 @@
 
 ## Description 
 
-A user directory to search for specific user and sort by age. 
+My portfolio website written with React. 
 
 
 ## Table of Contents 

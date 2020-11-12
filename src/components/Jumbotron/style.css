@@ -15,4 +15,15 @@ h1 {
 .lead {
     font-size: 1.8vw;
     margin: 0 auto;
+    margin-bottom: 2vh;
+}
+
+.link-icon {
+    font-size: 3vmin;
+    margin: 1vw;
+    color: #444444;
+}
+
+.link-icon:hover {
+    color: lightgrey;
 }
