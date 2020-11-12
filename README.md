@@ -32,7 +32,7 @@ npm install
 
 * On `Portfolio` page, each project has links to deployed website and GitHub repo.
 
-[Click here]() for deployed link. 
+[Click here](https://zhouyiwang.herokuapp.com) for deployed link. 
 
 
 ## License
