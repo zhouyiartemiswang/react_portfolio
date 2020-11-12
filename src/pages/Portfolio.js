@@ -3,7 +3,7 @@ import Project from '../components/Project';
 
 export default function Portfolio() {
     return (
-        <main>
+        <main className="container">
             <Project
                 img="https://res.cloudinary.com/artemiswang/image/upload/v1605131793/cold_west_gohnyj.png"
                 title="The Cole West"
@@ -50,5 +50,6 @@ export default function Portfolio() {
                 githubRepo="https://github.com/zhouyiartemiswang/weather_dashboard"
             />
         </main>
+
     )
 }

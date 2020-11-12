@@ -1,10 +1,11 @@
 import React from 'react';
+import './style.css';
 
 export default function Project(props) {
     return (
         <section className="row">
-            <section className="col-12 col-md-6">
-                <div className="card" >
+            <section className="col-12">
+                <div className="card project-card" >
                     <img src={props.img} className="card-img-top" alt={props.title} />
                     <div className="card-body">
                         <h5 className="card-title">{props.title}</h5>

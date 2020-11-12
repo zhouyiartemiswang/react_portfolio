@@ -1,0 +1,16 @@
+.navbar {
+    /* font-family: 'Unica One', cursive; */
+    /* font-family: 'Julius Sans One', sans-serif; */
+    /* font-family: 'Unica One', cursive; */
+}
+
+.navbar-brand {
+    font-family: 'Unica One', cursive;
+    font-size: 3vw;
+    margin-left: 2vw;
+}
+
+.nav-item {
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 1vw 2vw 1vw 2vw;
+}
